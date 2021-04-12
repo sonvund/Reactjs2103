@@ -1,0 +1,90 @@
+body{
+margin: 0;
+padding: 0;
+
+}
+body > p{
+font-family:monospace ;
+font-size: 10px;
+/*font-weight: 900;*/
+font-style: unset;
+text-decoration: underline;
+text-align:center;
+background-color: turquoise;
+/*text-transform: lowercase;
+font-weight: bold;*/
+color: blue !important;/*dùng để test*/
+}
+body > span{
+    text-align: center;
+    background-color: tomato;
+
+}
+#shadow::first-letter{
+    text-transform: uppercase;
+}
+
+#block{
+    display: block;
+    width: 100px;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+#inline{
+    display: inline;
+    width: 100px;
+    height: 200px;
+    background-color: brown;
+
+}
+#div3{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.shadow{
+    color: red;
+    box-shadow: 4px 4px 10px grey;
+    width:100px ;
+    height:100px ; 
+}
+.background {
+    background-image: url(https://images.unsplash.com/photo-1547380109-a2fffd5b9036?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    width:100% ;
+    height:50vh ;
+    background repeat: ;
+    /*border: 2px solid red;*/
+}
+.overflow{
+        width: 100px;
+        height: 80px;
+        border: 1px solid red;
+        overflow: hidden;
+    }
+.position{
+    width: 300px;
+    height: 500px;
+    background-color: burlywood;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.child-position {
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.fixed{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
