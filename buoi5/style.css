@@ -423,3 +423,45 @@ button:hover {
 .feat-footer > img {
     width: 100%;    
 }
+.footer {
+    width: 100%;
+}
+.footer .grid-show {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    background-color: #13233f;
+}
+.grid-show .location {
+    line-height: 30px;
+    margin: 30px 20%;
+    color: mintcream;
+    margin-top: 25%;
+}
+.grid-show .location .p-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.grid-show .location .part {
+    font-size: 17px;
+}
+.icons {
+    /* line-height: 10px; */
+    margin-top: 20%;
+}
+.icons p {
+    color: mintcream;
+}
+.icons .logo1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.icons .logo2{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.icons img {
+    width: 15%;
+}
